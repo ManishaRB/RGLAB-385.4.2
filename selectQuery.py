@@ -10,7 +10,7 @@ def connect():
         conn = mydbconnection.connect(
             database='usersdb',
             user='root',
-            password='deletedpwd'
+            password='rootpassword'
         )
         print('🎉 Succesfull Connection to SQL DB')
 
